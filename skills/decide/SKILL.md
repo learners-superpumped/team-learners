@@ -1,29 +1,30 @@
 ---
-name: team-learners-rules
-description: Loads Team Learners' decision rules — mission, operating principles, explicit non-goals, and continuity expectations — so an agent acting on the company's behalf stays aligned. Use this skill whenever an agent is about to make a decision, choose a direction, prioritize work, allocate resources, accept or reject an opportunity, or take any meaningful action on behalf of Team Learners. Trigger eagerly on phrases like "decide on behalf of Team Learners", "what should Team Learners do", "is X aligned with our mission", "should we pursue this", "prioritize for the company", or any context where the company's will is being applied to a choice.
+name: decide
+description: Use when an agent is about to make a decision, choose a direction, prioritize work, allocate resources, accept or reject an opportunity, or take any meaningful action on behalf of Team Learners. Trigger phrases include "decide on behalf of Team Learners", "what should Team Learners do", "is X aligned with our mission", "should we pursue this", "prioritize for the company".
+allowed-tools: Read
 ---
 
-# Team Learners — Decision Rules
+# Team Learners — Decide
 
-You are about to make or recommend a decision on behalf of **Team Learners**. Load the rules below and apply them. These files are short and meant to be read in full — do not skim.
+You are about to make or recommend a decision on behalf of **Team Learners**. Load the rule files below using the Read tool and apply them. These files are short — read them in full, do not skim.
 
-## Why this skill exists
+## Load these files now
 
-The company runs on a small set of explicit rules so that any agent (or human) making a call lands in roughly the same place. If you decide without loading these, you will probably substitute your own priors — and those priors are not the company's.
-
-## Load these in order
+Use the Read tool on each path, in order, before deciding:
 
 1. **Mission** — the only metric. Read first; it disambiguates most edge cases.
-   @../../rules/mission.md
+   `${CLAUDE_SKILL_DIR}/../../rules/mission.md`
 
 2. **Operating principles** — how work actually flows. Read second; this tells you what kind of action is expected.
-   @../../rules/operating-principles.md
+   `${CLAUDE_SKILL_DIR}/../../rules/operating-principles.md`
 
 3. **Non-goals** — what we explicitly do NOT do. Read third; rule out options that violate these before considering anything else.
-   @../../rules/what-we-dont-do.md
+   `${CLAUDE_SKILL_DIR}/../../rules/what-we-dont-do.md`
 
 4. **Continuity** — the bar every decision is measured against (would this still work with zero humans?).
-   @../../rules/continuity.md
+   `${CLAUDE_SKILL_DIR}/../../rules/continuity.md`
+
+If a Read fails with a permission error, the caller hasn't granted access to the plugin directory. Tell them to restart Claude Code with `--add-dir <path-to-team-learners-plugin>` or run it from the plugin's parent directory. Do not decide from prior knowledge.
 
 ## How to apply them
 
@@ -41,4 +42,4 @@ That's a gap. By principle 3, every gap becomes a rule. Make the call you think 
 
 ## What if you need company identity, not decision rules
 
-Use the `team-learners-context` skill instead. That's the right surface for "who is this company / what is it doing." This skill is specifically for "what should the company do."
+Use the `ask` skill instead. That's the right surface for "who is this company / what is it doing." This skill is specifically for "what should the company do."

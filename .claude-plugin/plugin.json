@@ -1,6 +1,6 @@
 {
   "name": "team-learners",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Team Learners company surface. Loads mission, thesis, operating rules, founder, and investor context into any Claude Code session. Use when an agent must introduce, describe, or act on behalf of Team Learners.",
   "author": {
     "name": "Team Learners",

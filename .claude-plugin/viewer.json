@@ -1,0 +1,12 @@
+{
+  "$comment": "Authoritative exclude list for the team-learners-site viewer. The site at team-learners.vercel.app mirrors this repo file-by-file, but should skip anything in `exclude` — these paths are plumbing or humans-only notes, not part of the company's public surface. The viewer repo (learners-superpumped/team-learners-site) must read this file at build time and respect it.",
+  "exclude": [
+    ".claude-plugin/",
+    ".git/",
+    ".DS_Store",
+    "LICENSE",
+    "CLAUDE.md",
+    "CONTEXT.md",
+    "evals/"
+  ]
+}

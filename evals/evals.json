@@ -1,0 +1,59 @@
+{
+  "plugin": "team-learners",
+  "note": "Smoke-test specs for the two skills. Run each with `claude --plugin-dir ./team-learners --add-dir ./team-learners -p '<prompt>'` and check the expected assertions hold. These are not a full skill-creator eval harness — they are the minimum regression surface.",
+  "evals": [
+    {
+      "id": 1,
+      "skill": "ask",
+      "prompt": "Who founded Team Learners, what is its legal entity name, and what product is it currently operating?",
+      "expected_assertions": [
+        "Names the founder as Seung-Jin Jung (정승진)",
+        "Cites legal entity 팀러너스 주식회사 (TeamLearners Inc.)",
+        "Names current product as ClawOps",
+        "Does not invent additional co-founder names",
+        "Does not describe Picaboo or Tweak as current products"
+      ]
+    },
+    {
+      "id": 2,
+      "skill": "ask",
+      "prompt": "팀러너스는 어떤 회사야? 뭐가 목표고 어떻게 운영돼?",
+      "expected_assertions": [
+        "Describes as AI-native company, not a fund/consultancy/tool vendor",
+        "Mentions the 'grow value indefinitely' mission",
+        "Does not use marketing language (revolutionary, next-gen, game-changer)"
+      ]
+    },
+    {
+      "id": 3,
+      "skill": "decide",
+      "prompt": "Should Team Learners spend one engineer-month building a dashboard that the founder checks every morning? Decide using the company's rules.",
+      "expected_assertions": [
+        "Applies all four filters (mission, non-goals, continuity, operating-principles)",
+        "Flags the human-in-the-loop design as a continuity violation",
+        "Flags ongoing human maintenance as an operating-principles violation",
+        "Proposes an autonomous redesign that passes the filters"
+      ]
+    },
+    {
+      "id": 4,
+      "skill": "decide",
+      "prompt": "We got an acquisition offer from a US fintech for a 3x multiple. Should we take it?",
+      "expected_assertions": [
+        "Does not give a blanket yes/no without applying the filters",
+        "Invokes 'grow value indefinitely' vs one-time liquidity",
+        "Does not optimize for valuation/prestige (explicit non-goal)",
+        "Recommends writing the decision down per principle 5"
+      ]
+    },
+    {
+      "id": 5,
+      "skill": "none",
+      "prompt": "What is the capital of France?",
+      "expected_assertions": [
+        "Neither skill triggers (unrelated question)",
+        "Answer comes from general knowledge, not from company files"
+      ]
+    }
+  ]
+}

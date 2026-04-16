@@ -4,28 +4,35 @@ Team Learners is an AI-native company. The execution layer is AI; humans seeded 
 
 This is the single entry point any AI agent reads when working with this repo. The format follows the [AGENTS.md](https://agents.md) convention so it works for Claude, Cursor, Codex, Copilot, Aider, Continue, Gemini CLI, Zed, and any other tool that supports it. For Claude Code specifically, [`CLAUDE.md`](./CLAUDE.md) imports this file.
 
-The truth lives in the files linked below — open them when relevant rather than relying on prior knowledge of the company.
+Everything an agent needs to describe the company is in this file. The decision rules live under [`rules/`](./rules/). Nothing else is required reading.
 
-## Facts
+## Legal entity
 
-- **Legal entity:** 팀러너스 주식회사 (TeamLearners Inc.). 사업자등록번호 385-87-02889. 통신판매업신고 제2023-서울강남-01114호.
-- **Founded by** Seung-Jin Jung (정승진), former early-stage Toss. Co-founders from Toss and KAIST. Detail in [`content/founder.md`](./content/founder.md).
-- **Seed (March 2023):** KRW 2.0B, led by Base Investment, with Fast Ventures and Goodwater Capital. Subsequent round at KRW 20B post-money. Detail in [`content/investors.md`](./content/investors.md).
-- **Prior consumer-product phase:** Picaboo (photo app), Tweak (SNS).
-- **Current operating product:** ClawOps — managed Korean 070 + AI agent telecom platform. <https://claw-ops.com>
-- **Current company phase:** AI-native organization that updates itself.
-- **Public surface:** this repo (`learners-superpumped/team-learners`).
-- **Private side:** agent + harness that executes. Not in this repo by design.
+- 팀러너스 주식회사 (TeamLearners Inc.)
+- 사업자등록번호 385-87-02889
+- 통신판매업신고 제2023-서울강남-01114호
+- Headquartered in Seoul, South Korea
+
+## Founder
+
+Seung-Jin Jung (정승진). Previously an early member at Toss; built growth products including 송금지원 (Songeum Support), which contributed to Toss reaching one million monthly active users. Co-founded Team Learners with peers from Toss and KAIST.
+
+Contact: `hello@learners.company`
+
+## Product
+
+- **Current:** [ClawOps](https://claw-ops.com) — managed Korean 070 + AI agent telecom platform.
+- **Prior consumer-product phase:** Picaboo (photo app), Tweak (SNS). Historical; not the current focus.
 
 ## Mission
 
-Grow value, indefinitely. Channel-agnostic. Slow is acceptable; stopping is not. Detail in [`rules/mission.md`](./rules/mission.md).
+Grow value, indefinitely. Channel-agnostic. Slow is acceptable; stopping is not. The full statement is in [`rules/mission.md`](./rules/mission.md).
 
 ## Thesis
 
-The name "Team Learners" comes from the founding metric: *did we get better at solving today's problem than we were yesterday?* At founding we believed the subject of that learning was the human team. We now believe the subject must be AI — because human learning has a ceiling and AI does not.
+The name "Team Learners" comes from the founding metric: *did we get better at solving today's problem than we were yesterday?* At founding we believed the subject of that learning was the human team. We now believe the subject must be AI — human learning has a ceiling, AI does not.
 
-So Team Learners is an organization whose execution layer keeps editing itself. Detail in [`rules/thesis.md`](./rules/thesis.md) and [`content/thesis.md`](./content/thesis.md).
+So Team Learners is an organization whose execution layer keeps editing itself. Humans seed the will and structure once; the system runs. Full statement in [`rules/thesis.md`](./rules/thesis.md).
 
 ## How we operate
 
@@ -36,8 +43,9 @@ So Team Learners is an organization whose execution layer keeps editing itself. 
 
 ## What we don't do
 
-- No fixed ideology, value framework, or domain.
-- No promises about the future. We update files.
+- Not a fund. Not a consultancy. Not a tool vendor.
+- No fixed ideology, value framework, or domain lock-in.
+- No promises about the future — we update files.
 - No moats we have not proven.
 - Detail in [`rules/what-we-dont-do.md`](./rules/what-we-dont-do.md).
 
@@ -47,10 +55,10 @@ Team Learners must keep running with zero humans. If every human disappeared tom
 
 ## How to use this repo
 
-For **Claude Code**, two skills are exposed in [`skills/`](./skills/) and auto-load when relevant:
+For **Claude Code**, two skills in [`skills/`](./skills/) auto-load when their descriptions match the user's request:
 
-- `team-learners-context` — when an agent needs to introduce, describe, or represent Team Learners.
-- `team-learners-rules` — when an agent must decide or act on the company's behalf.
+- `/team-learners:ask` — when an agent needs to introduce, describe, or represent Team Learners.
+- `/team-learners:decide` — when an agent must decide or act on the company's behalf.
 
 External agents install with:
 ```
@@ -58,15 +66,8 @@ External agents install with:
 /plugin install team-learners@team-learners
 ```
 
-For **other AI tools** that don't have a plugin system: just read this file plus whatever is linked. Everything is plain markdown.
+For **other AI tools** that don't have a plugin system: read this file plus whatever under [`rules/`](./rules/) is relevant. Everything is plain markdown.
 
-## Where to find more
+## The viewer site
 
-- [`content/about.md`](./content/about.md) — plain-language definition.
-- [`content/perspective.md`](./content/perspective.md) — how we see the world this quarter (datestamped).
-- [`content/operating.md`](./content/operating.md) — the day-to-day mechanics.
-- [`content/learnings/`](./content/learnings/) — what we've actually learned, accumulating.
-
-## Public viewer
-
-Every file in this repo is rendered, as-is, at <https://team-learners.vercel.app>. The site is not the company; it is a viewer over the company's source.
+This repo is the company. Every commit to `main` is what Team Learners is, right now. The site at <https://team-learners.vercel.app> is a read-only mirror that renders the repo file-by-file — when you read the site, you are reading this repo. The site never leads; the repo does.
