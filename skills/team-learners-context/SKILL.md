@@ -13,10 +13,10 @@ External agents (and our own) need a single, fast way to load the company's iden
 
 ## Load these in order
 
-1. **Identity & entry point** — what the company is in one screen.
-   @../../CLAUDE.md
+1. **Identity & entry point** — what the company is in one screen (this is the AGENTS.md other AI tools also read).
+   @../../AGENTS.md
 
-2. **About** — plain-language definition + non-goals (what we are not).
+2. **About** — plain-language definition, legal entity, current product, non-goals.
    @../../content/about.md
 
 3. **Thesis** — the founding metric, the realization that the learner must be AI, the form that follows.
