@@ -6,11 +6,24 @@ For humans setting up or maintaining this plugin. Claude Code does NOT auto-load
 
 This repo is the **public surface** of Team Learners as a Claude Code plugin. It contains:
 
-- The company description (`AGENTS.md`).
+- The stable company description (`AGENTS.md`).
 - The decision rules (`rules/`).
+- The company's current worldview and accumulating learnings (`content/`) — these are the parts that *update*; the company's identity is that the files keep editing themselves.
 - Two skills agents use: `ask` and `decide` (`skills/`).
 
 The viewer site that renders this repo for humans is a **separate private repo** — see *Viewer site* below.
+
+## Cadences (the parts that update)
+
+These are the files that should change over time. If they stop changing, the company is running on fumes. If you're maintaining this plugin, check whether these are up to date:
+
+- `content/perspective.md` — quarterly. If older than ~90 days, write the new one; the old one is replaced, not preserved.
+- `content/learnings/YYYY-MM-DD-slug.md` — whenever an assumption was tested and something was learned. One file per learning, dated. Never delete; later entries can overturn earlier ones by saying so explicitly.
+- `content/investors.md` — whenever a round closes.
+- `rules/*.md` — whenever an agent hits a gap and the gap becomes a rule (per operating principle 3).
+- `skills/*/SKILL.md` — whenever a human patches something and the patch becomes a skill (per operating principle 4).
+
+Bumping `version` in `.claude-plugin/plugin.json` signals that external agents should re-read.
 
 ## URLs
 
@@ -60,7 +73,12 @@ Every meaningful file in this repo is rendered, as-is, on the public site. There
 | Everything about the company             | `AGENTS.md`                                |
 | Same for Claude Code                     | `CLAUDE.md` (one-line import of AGENTS.md) |
 | Mission / operating principles / non-goals / continuity / thesis | `rules/*.md`                    |
+| Quarterly worldview (updates)            | `content/perspective.md`                   |
+| What we've learned (accumulates)         | `content/learnings/`                       |
+| Cap table                                | `content/investors.md`                     |
+| Thesis in prose form                     | `content/thesis.md`                        |
 | The two agent-facing skills              | `skills/ask/SKILL.md`, `skills/decide/SKILL.md` |
 | Plugin manifest                          | `.claude-plugin/plugin.json`               |
 | Marketplace manifest                     | `.claude-plugin/marketplace.json`          |
+| Viewer exclude list                      | `.claude-plugin/viewer.json`               |
 | Regression test specs                    | `evals/evals.json`                         |
