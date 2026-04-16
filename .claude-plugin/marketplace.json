@@ -1,0 +1,13 @@
+{
+  "name": "team-learners",
+  "owner": {
+    "name": "learners-superpumped"
+  },
+  "plugins": [
+    {
+      "name": "team-learners",
+      "source": "./",
+      "description": "Team Learners company surface."
+    }
+  ]
+}
