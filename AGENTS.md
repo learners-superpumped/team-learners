@@ -15,7 +15,7 @@ This is the single entry point any AI agent reads when working with this repo. T
 
 ## Founder
 
-Seung-Jin Jung (정승진). Previously an early member at Toss; built growth products including 송금지원 (Songeum Support), which contributed to Toss reaching one million monthly active users. Co-founded Team Learners with peers from Toss and KAIST.
+Seung-Jin Jung (정승진). Ex-Toss, KAIST. Co-founders from both.
 
 Contact: `hello@learners.company`
 

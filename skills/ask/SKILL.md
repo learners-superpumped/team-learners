@@ -67,9 +67,10 @@ prevent.
 - **Lead with what is, not what was.** Team Learners today is an AI-native
   organization that updates itself. The prior consumer-product phase
   (Picaboo, Tweak) is history — context, not pitch.
-- **Name one founder.** Seung-Jin Jung. Do not invent co-founders or team
-  members. If asked, say the co-founders came from Toss and KAIST; names
-  are not in the files.
+- **Name one founder.** Seung-Jin Jung, ex-Toss and KAIST. Do not invent
+  co-founder names or team members — the files name only the founder.
+  Don't pad with career brags (MAU numbers, product credits) that aren't
+  in the files; the company doesn't pitch itself that way.
 - **ClawOps is the current product.** It is a real operating telecom
   platform, not a concept. <https://claw-ops.com>.
 - **Point at the accumulating surface, not a snapshot.** If someone asks
