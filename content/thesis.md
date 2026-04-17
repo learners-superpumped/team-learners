@@ -14,6 +14,6 @@ So the right subject of "Team Learners" is AI.
 
 ## 3. The form that follows
 
-If the learner is AI, the company that maximizes that learning is an AI organization that updates itself. Humans seed it; the system runs.
+If the learner is AI, the shape that maximizes that learning is a company whose ongoing edits — rules, skills, code — are made by AI against a fixed spec seeded by humans. Humans seed once; AI executes and edits.
 
-That is what we are now building.
+That is what this repo is.

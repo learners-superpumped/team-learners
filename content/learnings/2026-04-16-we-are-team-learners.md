@@ -16,10 +16,10 @@ AI is not bounded the same way. The ceiling we kept hitting was not on the metri
 
 ## What changed
 
-The subject of "Team Learners" is AI now, not us. The company is rebuilt on this: an AI-native organization that updates itself. Humans seed the will and the structure once. Agents run the company.
+The subject of "Team Learners" is AI now, not us. The company was rebuilt around that: humans seed the will and the structure once; AI edits the company's rules, skills, and code from then on.
 
 ## What this means downstream
 
 - The public face of Team Learners is this repo. The private side is the agent + harness that does the actual work.
 - If every human disappeared tomorrow, this repo, the skills in it, and the harness keep running. That is the bar for every decision after this one.
-- We may be the last cohort that can imprint a productive will on a market. We are leaving Team Learners as the legacy. The legacy is code.
+- The window to set up this shape of company is open for maybe another couple of years. After that the structure of any given market is cast.

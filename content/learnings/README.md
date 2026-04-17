@@ -1,8 +1,8 @@
 # Learnings
 
-What this company has actually learned. Each entry is one unit of learning that the rest of the repo can reference.
+What this company has actually learned. One entry per learning. The rest of the repo can reference these.
 
-This is not a blog. It's the accumulating ground truth — a record of which assumptions were tested, which held, and which broke. The whole company is named after this folder, in spirit: *did we get better at solving today's problem than we were yesterday?* The answer accumulates here.
+Not a blog. A record of which assumptions were tested, which held, and which broke. The company's founding metric — *did we get better at solving today's problem than we were yesterday?* — is checked against this folder.
 
 ## Conventions
 

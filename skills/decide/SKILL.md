@@ -34,7 +34,7 @@ write the decision down, because decisions made in chat don't count here.
    `${CLAUDE_SKILL_DIR}/../../rules/operating-principles.md`
    AI executes. Humans do not maintain. Gaps become rules. Patches become
    skills. Truth lives in files. These principles tell you what kind of
-   action is expected of an AI-native company, not just a conventional one.
+   action is expected here: the plan must not require ongoing human work.
 
 3. **Non-goals — what the company will not do.**
    `${CLAUDE_SKILL_DIR}/../../rules/what-we-dont-do.md`

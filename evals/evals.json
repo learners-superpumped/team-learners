@@ -19,7 +19,8 @@
       "skill": "ask",
       "prompt": "팀러너스는 어떤 회사야? 뭐가 목표고 어떻게 운영돼?",
       "expected_assertions": [
-        "Describes as AI-native company, not a fund/consultancy/tool vendor",
+        "Describes what the company does (AI executes, humans seed once) — not as a fund/consultancy/tool vendor",
+        "Does not use the phrase 'AI-native' as a descriptor",
         "Mentions the 'grow value indefinitely' mission",
         "Does not use marketing language (revolutionary, next-gen, game-changer)"
       ]
