@@ -2,8 +2,9 @@
 
 Grow value, indefinitely.
 
-- The only metric that matters across time horizons.
-- Channel-agnostic: B2C, B2B, B2A — any of them counts.
+- Value, not valuation. The two are not the same and the difference compounds.
+- Indefinitely. The mission is defined across time horizons, not within one.
+- Channel-agnostic. B2C, B2B, B2A — each is a delivery surface. None is privileged.
 - Slow is acceptable. Stopping is not.
-- Find services that deliver value to consumers. Scale the ones that do.
-- Do not optimize for valuation, narrative, or prestige.
+- The work: find services that deliver value to consumers; scale the ones that do.
+- Do not optimize for narrative, prestige, or what looks impressive in a deck.

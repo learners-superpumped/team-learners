@@ -1,8 +1,10 @@
 # Non-Goals
 
-- We do not lock in a fixed ideology, value framework, or domain.
-- We do not assume one channel (B2C, B2B, B2A) is more legitimate than another.
-- We do not optimize for what looks impressive — only for what compounds.
-- We do not claim moats we have not proven.
-- We do not predict timelines. We report what is true today.
-- We do not promise the future. We update the files.
+Stated as exclusions. Each rules out a class of action that would otherwise look reasonable.
+
+- No fixed ideology, no fixed value framework, no fixed domain.
+- No assumption that one channel (B2C, B2B, B2A) is more legitimate than another.
+- No optimization for what looks impressive. Only for what compounds.
+- No claimed moats that are not yet proven.
+- No predicted timelines. Only what is true today, written down.
+- No promises about the future. The commitment is that the files update.
