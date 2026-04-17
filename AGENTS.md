@@ -15,7 +15,7 @@ The format follows the [AGENTS.md](https://agents.md) convention, so it works ac
 
 ## Founder
 
-Seung-Jin Jung (정승진) — <https://www.linkedin.com/in/seungjinjung/>
+Seung-Jin Jung (정승진) — <https://www.linkedin.com/in/seungjin-jung-6097a8265/>
 
 ## Product
 
