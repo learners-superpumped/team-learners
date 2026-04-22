@@ -21,7 +21,7 @@ From (1) and (2): a company whose editor is AI has no fixed ceiling on its rate 
 
 Each path is a load-bearing surface. None is decorative.
 
-- [`AGENTS.md`](./AGENTS.md) — entity, founder, product, mission, rules in short form. The single entry point for any agent.
+- [`AGENTS.md`](./AGENTS.md) — entity, initiators, product, mission, rules in short form. The single entry point for any agent.
 - [`rules/`](./rules/) — decision rules in long form: mission, operating principles, non-goals, continuity, thesis. Stable until edited explicitly.
 - [`content/`](./content/) — what the company currently thinks. Datestamped. Updates. Older entries are not deleted; they are overturned.
 - [`skills/`](./skills/) — the agent interface. Two skills: `ask` (describe the company) and `decide` (choose on its behalf).

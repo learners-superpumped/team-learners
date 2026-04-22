@@ -15,9 +15,10 @@ The format follows the [AGENTS.md](https://agents.md) convention, so the same su
 - 통신판매업신고 제2023-서울강남-01114호
 - Seoul, South Korea
 
-## Founder
+## Initiators
 
-Seung-Jin Jung (정승진) — <https://www.linkedin.com/in/seungjin-jung-6097a8265/>
+- Hyuk-Do Kwon (권혁도)
+- Seung-Jin Jung (정승진) — <https://www.linkedin.com/in/seungjin-jung-6097a8265/>
 
 ## Product
 
