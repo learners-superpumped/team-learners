@@ -17,8 +17,8 @@ The format follows the [AGENTS.md](https://agents.md) convention, so the same su
 
 ## Initiators
 
-- Hyuk-Do Kwon (권혁도)
 - Seung-Jin Jung (정승진) — <https://www.linkedin.com/in/seungjin-jung-6097a8265/>
+- Hyeok Kwon (권혁) — <https://github.com/GwonHyeok>
 
 ## Product
 
