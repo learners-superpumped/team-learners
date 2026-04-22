@@ -1,7 +1,7 @@
 # Thesis
 
-The founding question: *are we better at solving today's problem than yesterday?* That is learning, and learning is what compounds.
+The original subject of "Team Learners" was the human team. The current subject is AI.
 
-We assumed the subject was the human team. We were wrong. Human learning is bounded — hours, attention, integration speed. AI is not bounded the same way.
+Human learning is bounded by hours, attention, and integration speed. AI learning is not bounded the same way.
 
-So the right subject of "Team Learners" is AI. The shape that follows: a company whose ongoing edits — rules, skills, code — are made by AI against a fixed spec seeded by humans. Humans seed once; AI executes and edits. That is what this repo is.
+The company is therefore structured so that ongoing edits — rules, skills, code — are made by AI against a spec seeded by humans.

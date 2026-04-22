@@ -2,4 +2,6 @@
 
 Grow value, indefinitely.
 
-Value, not valuation. Across time, not within it. Channel-agnostic. Slow is fine; stopping is not.
+- Value, not valuation.
+- Channel-agnostic: B2C, B2B, B2A.
+- Slow is acceptable. Stopping is not.

@@ -2,15 +2,16 @@
 
 Contact: `hello@learners.company`
 
-팀러너스 주식회사 runs as the set of files in this repo. Agents read, agents act, humans seed.
+Team Learners is operated as the files in this repository. Humans define goals and constraints; agents execute against the files.
 
-Entry point: [`AGENTS.md`](./AGENTS.md).
+Start at [`AGENTS.md`](./AGENTS.md).
 
-## Use
+## Install
 
 ```
 /plugin marketplace add learners-superpumped/team-learners
 /plugin install team-learners@team-learners
 ```
 
-`/team-learners:ask` to describe. `/team-learners:decide` to choose.
+`/team-learners:ask` — describe the company.
+`/team-learners:decide` — choose on its behalf.

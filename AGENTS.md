@@ -2,12 +2,13 @@
 
 Contact: `hello@learners.company`
 
-팀러너스 주식회사 runs as the set of files in this repo. Agents read, agents act, humans seed. Continuity does not depend on any individual.
+Team Learners (팀러너스 주식회사) is operated by reading and editing the files in this repository. Humans define goals and constraints; agents execute against the files.
 
 ## Entity
 
 - 팀러너스 주식회사 (TeamLearners Inc.)
-- 사업자등록번호 385-87-02889 · 통신판매업신고 제2023-서울강남-01114호
+- 사업자등록번호 385-87-02889
+- 통신판매업신고 제2023-서울강남-01114호
 - Seoul, South Korea
 
 ## Initiators
@@ -17,19 +18,15 @@ Contact: `hello@learners.company`
 
 ## Product
 
-[ClawOps](https://claw-ops.com) — managed Korean 070 + AI agent telecom.
+ClawOps — managed Korean 070 + AI agent telecom. <https://claw-ops.com>
 
-## Why this shape
-
-Human learning has a ceiling. AI learning does not. So: humans seed once, AI executes against the files thereafter. Rate of change is bounded only by how coherent the files stay.
-
-## Files
+## Structure
 
 - [`rules/`](./rules/) — mission, thesis, operating principles, continuity.
-- [`content/`](./content/) — what the company currently thinks. Datestamped; updates.
+- [`content/`](./content/) — datestamped updates.
 - [`skills/`](./skills/) — `ask` (describe), `decide` (choose).
 
-## Use
+## Install
 
 ```
 /plugin marketplace add learners-superpumped/team-learners
