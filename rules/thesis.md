@@ -1,11 +1,7 @@
 # Thesis
 
-The name "Team Learners" comes from the founding metric: *did we get better at solving today's problem than we were yesterday?*
+The name "Team Learners" comes from one question: *are we better at solving today's problem than yesterday?* That is what compounds.
 
-At founding, the subject of that question was the human team.
+At founding, the subject of that question was the human team. It is now AI.
 
-It is now AI.
-
-- Human learning has a ceiling. AI learning does not.
-- A company whose editor is AI has no upper bound on its rate of change, provided the files remain coherent.
-- Therefore: humans seed, AI executes, and the files in this repository are what gets edited.
+Human learning has a ceiling. AI learning does not. A company whose editor is AI has no fixed ceiling on its rate of change, as long as the files stay coherent. Humans seed once; AI executes against the files thereafter.

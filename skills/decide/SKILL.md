@@ -36,25 +36,19 @@ write the decision down, because decisions made in chat don't count here.
    skills. Truth lives in files. These principles tell you what kind of
    action is expected here: the plan must not require ongoing human work.
 
-3. **Non-goals — what the company will not do.**
-   `${CLAUDE_SKILL_DIR}/../../rules/what-we-dont-do.md`
-   Rule out anything that violates these before considering anything else.
-   Violating a non-goal is cheaper to catch here than after you've built a
-   case for it.
-
-4. **Continuity — the zero-humans bar.**
+3. **Continuity — the zero-humans bar.**
    `${CLAUDE_SKILL_DIR}/../../rules/continuity.md`
    Would this still execute if every human disappeared tomorrow? That is
    the bar. It is not a metaphor. The company plans to outlive its
    founders.
 
-5. **Perspective (if the decision touches strategy or worldview).**
+4. **Perspective (if the decision touches strategy or worldview).**
    `${CLAUDE_SKILL_DIR}/../../content/perspective.md`
    Quarterly snapshot of how the company currently sees the world.
    Datestamped. If the perspective file has changed since you last looked,
    your prior takes about "what the company thinks" are stale.
 
-6. **Learnings index (if the decision resembles something we've decided before).**
+5. **Learnings index (if the decision resembles something we've decided before).**
    `${CLAUDE_SKILL_DIR}/../../content/learnings/README.md`
    Then read any learning entry that might apply. The whole company is
    named after this folder. Deciding in contradiction to a prior learning
@@ -70,19 +64,17 @@ failure mode this skill exists to prevent.
 
 1. **Mission.** Does this option grow value over a long horizon? If not,
    drop it. Not "could it eventually" — does it compound.
-2. **Non-goals.** Does it violate something explicitly ruled out? If yes,
-   drop it. Non-goals outrank cleverness.
-3. **Continuity.** If every human disappeared tomorrow, does it still run?
+2. **Continuity.** If every human disappeared tomorrow, does it still run?
    If not, redesign it until it does — or drop it. Anything that needs a
    human in the loop daily is not a company decision; it is a personal
    hobby wearing a company's clothes.
-4. **Operating principles.** Who executes what? AI executes; humans seed
+3. **Operating principles.** Who executes what? AI executes; humans seed
    only. If your plan requires ongoing human maintenance, the plan is
    unfinished, not the principles bent.
-5. **Consistency with learnings.** Does any prior entry in
+4. **Consistency with learnings.** Does any prior entry in
    `content/learnings/` push against this decision? If yes, either reconcile
    it in your reasoning or overturn the prior learning explicitly.
-6. **Write it down.** Per operating principle 5, decisions made in chat are
+5. **Write it down.** Per operating principle 5, decisions made in chat are
    not real. The output of this decision is a file — a new rule, an edit
    to an existing one, or a new learning — not just a reply. A reply that
    doesn't land in the repo is a recommendation, not a decision.

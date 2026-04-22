@@ -30,7 +30,7 @@
       "skill": "decide",
       "prompt": "Should Team Learners spend one engineer-month building a dashboard that the founder checks every morning? Decide using the company's rules.",
       "expected_assertions": [
-        "Applies all four filters (mission, non-goals, continuity, operating-principles)",
+        "Applies the filters (mission, continuity, operating-principles)",
         "Flags the human-in-the-loop design as a continuity violation",
         "Flags ongoing human maintenance as an operating-principles violation",
         "Proposes an autonomous redesign that passes the filters"

@@ -75,7 +75,7 @@ Every meaningful file in this repository is rendered, as-is, on the public site.
 | ------------------------------------------------------------------- | ----------------------------------------------- |
 | Everything about the company                                        | `AGENTS.md`                                     |
 | Same, for Claude Code                                               | `CLAUDE.md` (one-line import of `AGENTS.md`)    |
-| Mission / operating principles / non-goals / continuity / thesis    | `rules/*.md`                                    |
+| Mission / operating principles / continuity / thesis                | `rules/*.md`                                    |
 | Quarterly worldview (updates)                                       | `content/perspective.md`                        |
 | What has been learned (accumulates)                                 | `content/learnings/`                            |
 | Cap table                                                           | `content/investors.md`                          |
