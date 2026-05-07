@@ -2,19 +2,19 @@
 
 Contact: `hello@learners.company`
 
-Team Learners (팀러너스 주식회사) is operated by reading and editing the files in this repository. Humans define goals and constraints; agents execute against the files.
+Team Learners is operated by reading and editing the files in this repository. Humans define goals and constraints; agents execute against the files.
 
 ## Entity
 
-- 팀러너스 주식회사 (TeamLearners Inc.)
-- 사업자등록번호 385-87-02889
-- 통신판매업신고 제2023-서울강남-01114호
+- TeamLearners Inc.
+- Business registration: 385-87-02889
+- E-commerce filing: 2023-Seoul-Gangnam-01114
 - Seoul, South Korea
 
 ## Initiators
 
-- Seung-Jin Jung (정승진) — <https://www.linkedin.com/in/seungjin-jung-6097a8265/>
-- Hyeok Kwon (권혁) — <https://github.com/GwonHyeok>
+- Seung-Jin Jung — <https://www.linkedin.com/in/seungjin-jung-6097a8265/>
+- Hyeok Kwon — <https://github.com/GwonHyeok>
 
 ## Product
 
