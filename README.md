@@ -1,4 +1,4 @@
-# Team Learners (팀러너스)
+# Team Learners
 
 Website: <https://learners.company>
 Contact: `hello@learners.company`

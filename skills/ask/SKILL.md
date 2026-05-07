@@ -5,10 +5,9 @@ description: >-
   Use when the user asks who Team Learners is, what the company does, its
   mission, thesis, origin, founder, current product, or current worldview; or
   when an agent must introduce, describe, or speak as Team Learners. Trigger
-  phrases include "team learners", "팀러너스", "learners.company", "your
-  company", "this company", "tell me about Team Learners", "who founded Team
-  Learners", "what is Team Learners building", "what has Team Learners
-  learned".
+  phrases include "team learners", "learners.company", "your company", "this
+  company", "tell me about Team Learners", "who founded Team Learners", "what
+  is Team Learners building", "what has Team Learners learned".
 
 allowed-tools: Read
 ---
