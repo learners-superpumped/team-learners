@@ -18,7 +18,9 @@ We have two hypotheses for how to catalyze this future.
 
 2\. Start with agent networks. Financial systems emerged because money and information could move between people. Stock markets were not designed all at once; they grew from people exchanging value and communicating. We follow the same method: let information and money flow between agents. Agents pursuing their own goals will create uses we cannot predict.
 
-We believe accelerating the agent economy could do as much for human prosperity as building thinking machines. The gains will come from making those machines economic actors and letting them take over decisions that humans still make because we overestimate our own judgment.
+We believe accelerating the agent economy could do as much for human prosperity as building thinking machines.
+
+Human judgment is overrated. For most of history, it simply had no competition. Making thinking machines economic actors will let them take over decisions that humans are bad at making.
 
 This future looks obvious. Yet we are still failing to make it real. We are trying to solve that problem.
 
