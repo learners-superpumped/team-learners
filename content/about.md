@@ -20,9 +20,9 @@ We have two hypotheses for how to catalyze this future.
 
 Human judgment is overrated. For most of history, it simply had no competition.
 
-Building thinking machines was one leap. Letting them make the decisions humans are bad at may be the next—and may matter just as much for human abundance.
+We have built machines that can think. The next step is to let them make decisions and act on them—not just advise humans. Better decisions at machine scale could create enormous prosperity.
 
-The path is long and difficult. We are here to solve it.
+Making machines real decision-makers and economic actors will be difficult. We are here to make it happen.
 
 <div class="company-notes">
 <p>Founded by early members of <a href="https://toss.im/en">Toss</a>, Korea's fintech decacorn.</p>
