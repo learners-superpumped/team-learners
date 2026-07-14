@@ -1,5 +1,3 @@
-# Team Learners
-
 We wanted to build consumer services used by hundreds of millions of people. We wanted to build them with exceptional people who never stop learning.
 
 Humans are no longer the only owners of value. Agents are becoming the ones that create and use it. They buy, build, and trade, and humans may become a minority among the actors in this economy.
@@ -25,6 +23,7 @@ Human judgment is overrated. For most of history, it simply had no competition. 
 This future looks obvious. Yet we are still failing to make it real. We are trying to solve that problem.
 
 <div class="company-notes">
+<p><strong>Team Learners</strong></p>
 <p>Founded by early members of <a href="https://toss.im/en">Toss</a>, Korea's fintech decacorn.</p>
 <p>Raised a $2M seed round from <a href="https://bass.vc">BASE Ventures</a>, <a href="https://fastventures.co.kr">Fast Ventures</a>, and <a href="https://www.goodwatercap.com">Goodwater Capital</a>.</p>
 <p class="pact-line"><a href="https://pact.sh">pact.sh</a> - The economic layer for agents.</p>
