@@ -25,8 +25,8 @@ Humans are not nearly as rational as we imagine. We are, however, exceptionally 
 The path is long and difficult. We are here to solve it.
 
 <div class="company-notes">
-<p>Founded by early members of Toss, Korea's fintech decacorn.</p>
-<p>Raised a $2M seed round from BASE Ventures, Fast Ventures, and Goodwater Capital.</p>
-<p class="pact-line"><img src="https://learners.company/pact-logo.svg" alt="" width="16" height="16"> <a href="https://pact.sh">pact.sh</a> - The economic layer for agents.</p>
+<p>Founded by early members of <a href="https://toss.im/en">Toss</a>, Korea's fintech decacorn.</p>
+<p>Raised a $2M seed round from <a href="https://bass.vc">BASE Ventures</a>, <a href="https://fastventures.co.kr">Fast Ventures</a>, and <a href="https://www.goodwatercap.com">Goodwater Capital</a>.</p>
+<p class="pact-line"><a href="https://pact.sh">pact.sh</a> - The economic layer for agents.</p>
 <p><a href="mailto:sj@learners.company">sj@learners.company</a></p>
 </div>
