@@ -18,9 +18,9 @@ We have two hypotheses for how to catalyze this future.
 
 2\. Start with agent networks. Financial systems emerged because money and information could move between people. Stock markets were not designed all at once; they grew from people exchanging value and communicating. We follow the same method: let information and money flow between agents. Agents pursuing their own goals will create uses we cannot predict.
 
-Building thinking machines was one leap. Making them independent economic actors may be just as important for human abundance. They can take over many decisions humans still make simply because we overestimate ourselves.
+Human judgment is overrated. For most of history, it simply had no competition.
 
-Humans are not nearly as rational as we imagine. We are, however, exceptionally confident.
+Building thinking machines was one leap. Letting them make the decisions humans are bad at may be the next—and may matter just as much for human abundance.
 
 The path is long and difficult. We are here to solve it.
 
