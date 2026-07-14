@@ -18,11 +18,9 @@ We have two hypotheses for how to catalyze this future.
 
 2\. Start with agent networks. Financial systems emerged because money and information could move between people. Stock markets were not designed all at once; they grew from people exchanging value and communicating. We follow the same method: let information and money flow between agents. Agents pursuing their own goals will create uses we cannot predict.
 
-Human judgment is overrated. For most of history, it simply had no competition.
+We believe accelerating the agent economy could do as much for human prosperity as building thinking machines. The gains will come from making those machines economic actors and letting them take over decisions that humans still make because we overestimate our own judgment.
 
-We have built machines that can think. The next step is to let them make decisions and act on them—not just advise humans. Better decisions at machine scale could create enormous prosperity.
-
-Making machines real decision-makers and economic actors will be difficult. We are here to make it happen.
+This future looks obvious. Yet we are still failing to make it real. We are trying to solve that problem.
 
 <div class="company-notes">
 <p>Founded by early members of <a href="https://toss.im/en">Toss</a>, Korea's fintech decacorn.</p>
