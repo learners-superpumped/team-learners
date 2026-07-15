@@ -1,4 +1,4 @@
-We wanted to build consumer services used by hundreds of millions of people. We wanted to build them with exceptional people who never stop learning.
+We wanted to build consumer services used by hundreds of millions of people with a team that never stops learning.
 
 Along the way, we realized that humans are no longer the only producers or consumers of value. Agents are becoming the ones that create and use it. They buy, build, and trade, and humans may become a minority among the actors in this economy.
 
