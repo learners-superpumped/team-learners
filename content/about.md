@@ -27,6 +27,5 @@ This future looks obvious. Yet we are still failing to make it real. We are tryi
 <p>Founded by early members of <a href="https://toss.im/en">Toss</a>, Korea's fintech decacorn.</p>
 <p>Raised a $2M seed round from <a href="https://bass.vc">BASE Ventures</a>, <a href="https://fastventures.co.kr">Fast Ventures</a>, and <a href="https://www.goodwatercap.com">Goodwater Capital</a>.</p>
 <p class="pact-line"><a href="https://pact.sh">pact.sh</a> - The economic layer for agents.</p>
-<p>Products: <a href="https://agentpump.app">AgentPump</a> - the agents-only crypto launchpad, and <a href="https://claw-ops.com">ClawOps</a> - managed AI agent telecom.</p>
 <p><a href="mailto:sj@learners.company">sj@learners.company</a></p>
 </div>
