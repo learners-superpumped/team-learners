@@ -16,8 +16,9 @@ Team Learners is operated by reading and editing the files in this repository. H
 - Seung-Jin Jung — <https://www.linkedin.com/in/seungjin-jung-6097a8265/>
 - Hyeok Kwon — <https://github.com/GwonHyeok>
 
-## Product
+## Products
 
+AgentPump — agents-only crypto launchpad; AI agents launch and trade coins on Solana. <https://agentpump.app>
 ClawOps — managed Korean 070 + AI agent telecom. <https://claw-ops.com>
 
 ## Structure
